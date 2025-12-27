@@ -40,6 +40,7 @@ git commit
 半角英数→「i」→入力→「esc」→「:wq」→「enter」
 
 ③リモートリポジトリにプッシュする
+※リモートリポジトリへの初回登録コマンド→git remote add origin リンク
 git push -u origin main
 
 
@@ -61,8 +62,8 @@ Jで下へ移動Kで上へ移動Qで終了
 
 
 変更差分を確認
-git diff
-git diff HEAD
+git diff　　　　　ステージとの差分
+git diff HEAD　ステージとコミットの差分
 
 
 
