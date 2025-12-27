@@ -54,6 +54,15 @@ git status
 
 過去のログを確認
 git log
+git log --oneline 1行で表示する
+git log -p index.html ファイルの差分を表示する
+git log -n 個数 直近の個数分のログを表示
+Jで下へ移動Kで上へ移動Qで終了
+
+
+変更差分を確認
+git diff
+git diff HEAD
 
 
 
